@@ -52,10 +52,11 @@ ScrollReveal().reveal('.home-content h1, .about-img', { origin: 'left' });
 ScrollReveal().reveal('.home-content p, .about-content', { origin: 'right' });
 
 /*===typed js===*/
-const typed = new typed('.multiple-text',{
-    strings: ['Frontend Developer','coder','Blogger'],
+
+  var typed = new Typed('#multiple-text', {
+    strings: ['Frontend Developer','coder','Blogger','Freelancer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
-});
+  });
